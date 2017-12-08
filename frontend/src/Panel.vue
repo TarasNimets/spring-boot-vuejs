@@ -1,19 +1,19 @@
 <template>
   <ul>
     <div>Post Trucks</div>
-    <li class="list">
+    <li>
       <img src="./assets/play.png" title="Play" v-on:click="playPress">
       <a>|</a>
     </li>
-    <li class="list" v-on:click="newPress">
+    <li v-on:click="newPress">
       <img src="./assets/new.png">
       <a>New</a>
     </li>
-    <li class="list" v-on:click="deletePress">
+    <li v-on:click="deletePress">
       <img src="./assets/delete.png">
       <a>Delete All</a>
     </li>
-    <li class="list" v-on:click="repostPress">
+    <li v-on:click="repostPress">
       <img src="./assets/repost.png">
       <a>Repost All</a>
     </li>
@@ -51,15 +51,18 @@
     font-style: normal;
     font-size: 25px;
     font-family:sans-serif;
-  	}
+  }
   div{
     font-style: normal;
     font-size: 30px;
     font-family:sans-serif;
   }
-
-  .list{
+  li{
+    list-style-type: none;
     display: inline-block;
-    list-style: none;
+  }
+  ul{
+    margin-left: 0;
+    padding-left: 0;
   }
 </style>

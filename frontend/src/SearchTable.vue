@@ -41,10 +41,10 @@
       <td>{{ some.length }}</td>
       <td>{{ some.weight }}</td>
       <td>{{ some.company }}</td>
-      <td>{{ some.phone }}</td>      
+      <td>{{ some.phone }}</td>
       </tr>
     </tbody>
-    </table>
+  </table>
 </template>
 
 <script>

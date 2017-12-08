@@ -10,16 +10,9 @@
   import SearchTable from './SearchTable.vue';
 
   export default {
-    data () {
-      return {
-      }
-    },
     components: {
       'main-panel': Panel,
       'search-table': SearchTable
     }
   }
 </script>
-
-<style scope>
-</style>

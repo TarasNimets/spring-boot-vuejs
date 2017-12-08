@@ -12,7 +12,11 @@ public class SomeDataService {
     private List<SomeData> datas = new ArrayList<>();
     
     {
-        datas.add(new SomeData(3150, "q", "w", "a", 12, "s", "x", 13, "fp", "origin", 14, "destination", 15, "truckD", "length", "weight", "company", "phone"));
+        datas.add(new SomeData(3150, "q", "w", "a", 12, "s", "x", 13, "fp", "origin", 14, "destination", 15,
+                "truckD", "length", "weight", "company", "phone"));
+        datas.add(new SomeData(1215, "f", "source", "age", 12, "truck", "x", 13, "fp", "origin", 14, "destination", 15, 
+                "truckD", "length", "weight", "company", "phone"));
+
     }
     
     public List<SomeData> getAllData(){
